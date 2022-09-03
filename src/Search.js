@@ -28,7 +28,7 @@ export default function Search(props) {
     <>
       <div className="form-wrap">
       <form onSubmit={handleSubmit}>
-          <input  autocomplete="off" placeholder="Pokemon's name" id='haku' type="text" value={haku} onChange={(e) => setHaku(e.target.value)}/>
+          <input  autoComplete="off" placeholder="Pokemon's name" id='haku' type="text" value={haku} onChange={(e) => setHaku(e.target.value)}/>
         <input id='nappi' type="submit" value="Search For a Pokemon!"/>
       </form>
       </div>
