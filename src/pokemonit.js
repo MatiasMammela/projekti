@@ -5,9 +5,8 @@ export default function Pokemonit(props){
 
 
   const [isToggled,setIsToggled] = useState(false); 
-let pokemoni=props.pokemoni
+let pokemoni=props.pokemoni;
 let pokemonicolor=props.pokemonicolor;
-console.log(pokemonicolor)
 if(pokemoni && pokemoni!=="Noresults"){
   return (
     <div className='pokemon-wrap'>
